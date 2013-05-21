@@ -1,0 +1,27 @@
+{
+    "name": "alexey-wild/silex-elasticsearch-provider",
+    "type": "library",
+    "description":  "ElasticSearch service provider for the Silex framwork.",
+    "keywords": ["elasticsearch", "elastic", "search", "silex"],
+    "homepage": "https://github.com/alexey-wild/silex-elasticsearch-provider",
+    "license":  "MIT",
+    "authors": [
+        {
+            "name": "Alexey Volkov",
+            "email": "alexey.wild88@gmail.com"
+        }
+    ],
+    "require": {
+        "sherlock/sherlock": "*",
+        "silex/silex": "1.*"
+    },
+    "require-dev": {
+        "sherlock/sherlock": "*",
+        "silex/silex": "1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Elasticsearch\\Silex": "src"
+        }
+    }
+}
