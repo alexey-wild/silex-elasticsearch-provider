@@ -12,11 +12,11 @@
         }
     ],
     "require": {
-        "sherlock/sherlock": "*",
+        "ruflin/Elastica": "dev-master",
         "silex/silex": "1.*"
     },
     "require-dev": {
-        "sherlock/sherlock": "*",
+        "ruflin/Elastica": "dev-master",
         "silex/silex": "1.*"
     },
     "autoload": {
