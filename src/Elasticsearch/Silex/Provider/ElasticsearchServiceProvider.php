@@ -52,7 +52,7 @@ class ElasticsearchServiceProvider implements ServiceProviderInterface
                 }
             }
 
-            return $this->sherlock;
+            return $this->sherlock->search();
         });
     }
 
