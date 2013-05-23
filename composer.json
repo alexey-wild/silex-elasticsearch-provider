@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "alexey-wild/elasticsearchphp": "*",
+        "alexey-wild/elasticsearchphp": "dev-master",
         "silex/silex": "1.*"
     },
     "autoload": {
