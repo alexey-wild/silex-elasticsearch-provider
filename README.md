@@ -1,1 +1,1 @@
-Silex ElasticSearch Provider
+Silex ElasticSearchPhp Provider

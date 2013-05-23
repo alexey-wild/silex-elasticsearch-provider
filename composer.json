@@ -1,27 +1,24 @@
 {
-    "name": "alexey-wild/silex-elasticsearch-provider",
+    "name": "alexey-wild/silex-elasticsearchphp-provider",
     "type": "library",
-    "description":  "ElasticSearch service provider for the Silex framwork.",
-    "keywords": ["elasticsearch", "elastic", "search", "silex"],
-    "homepage": "https://github.com/alexey-wild/silex-elasticsearch-provider",
-    "license":  "MIT",
+    "description": "ElasticSearch service provider for the Silex framwork.",
+    "keywords": ["elasticsearch", "search", "silex"],
+    "homepage": "https://github.com/alexey-wild/silex-elasticsearchphp-provider",
+    "license": "MIT",
     "authors": [
         {
             "name": "Alexey Volkov",
-            "email": "alexey.wild88@gmail.com"
+            "email": "alexey.wild88@gmail.com",
+            "homepage": "http://instudies.com/user/269259462015055"
         }
     ],
     "require": {
-        "sherlock/sherlock": "*",
-        "silex/silex": "1.*"
-    },
-    "require-dev": {
-        "sherlock/sherlock": "*",
+        "alexey-wild/elasticsearchphp": "*",
         "silex/silex": "1.*"
     },
     "autoload": {
         "psr-0": {
-            "Elasticsearch\\Silex": "src"
+            "Elasticsearchphp\\Silex": "src"
         }
     }
 }
