@@ -12,6 +12,12 @@
             "homepage": "http://instudies.com/user/269259462015055"
         }
     ],
+    "repositories": [
+        {
+          "type": "git",
+          "url": "https://github.com/alexey-wild/elasticsearchphp"
+        }
+    ],
     "require": {
         "alexey-wild/elasticsearchphp": "dev-master",
         "silex/silex": "1.*"
