@@ -54,10 +54,4 @@ class ElasticsearchphpServiceProvider implements ServiceProviderInterface
      */
     public function boot(Application $app)
     {}
-
-    public function query()
-    {
-        $return = $this->elasticsearchphp;
-        return $return::query();
-    }
 }
